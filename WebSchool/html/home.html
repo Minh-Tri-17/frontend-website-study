@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/html/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/stylesheet.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img src="/images/sv_logo_dashboard.png" alt="logo" />
+        <form>
+          <input type="text" placeholder="Tìm kiếm" />
+          <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+      <div class="header-right">
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-bell" aria-hidden="true"></i>Tin tức</a>
+          </li>
+          <li class="collapsible">
+            <img src="/images/" alt="avarta" /><a href="#"
+              >Nguyễn Minh Trí &nbsp;<i
+                class="fa fa-caret-down"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </li>
+          <ul class="content">
+            <li><a href="#">Thông tin cá nhân</a></li>
+            <li><a href="#">Đổi mật khẩu</a></li>
+            <li><a href="#">Đăng xuất</a></li>
+          </ul>
+        </ul>
+      </div>
+    </header>
+    <nav>
+      <button class="collapsible" id="menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul class="content" id="dropdown-menu">
+        <li>
+          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a>
+        </li>
+        <li class="collapsible">
+          <a href="#"
+            ><i class="fa fa-television" aria-hidden="true"></i>Thông tin
+            chung</a
+          >
+        </li>
+        <ul class="content" id="menu-child">
+          <li><a href="#">Thông tin sinh viên</a></li>
+          <li><a href="#">Ghi chú nhắc nhở</a></li>
+          <li><a href="#">Cập nhật thông tinBHYT</a></li>
+        </ul>
+        <li class="collapsible">
+          <a href="#"
+            ><i class="fa fa-graduation-cap" aria-hidden="true"></i>Học tập</a
+          >
+        </li>
+        <ul class="content" id="menu-child">
+          <li><a href="#">Kết quả học tập</a></li>
+          <li><a href="#">Lịch theo tiến độ</a></li>
+          <li><a href="#">Lịch theo tuần</a></li>
+          <li><a href="#">Kết quả rèn luyện</a></li>
+          <li><a href="#">Thông tin điểm danh</a></li>
+        </ul>
+        <li class="collapsible">
+          <a href="#"
+            ><i class="fa fa-check-square-o" aria-hidden="true"></i>Đăng ký học
+            phần</a
+          >
+        </li>
+        <ul class="content" id="menu-child">
+          <li><a href="#">Chương trình khung</a></li>
+        </ul>
+        <li class="collapsible">
+          <a href="#"
+            ><i class="fa fa-cc-visa" aria-hidden="true"></i>Học phí</a
+          >
+        </li>
+        <ul class="content" id="menu-child">
+          <li><a href="#">Tra cứu công nợ</a></li>
+          <li><a href="#"></a>Phiếu thu tổng hợp</li>
+          <li><a href="#"></a>Thanh toán trực tuyến</li>
+        </ul>
+      </ul>
+    </nav>
+    <section>
+      <div class="cell-info">
+        <h3>Thông tin sinh viên</h3>
+        <div class="info">
+          <div>
+            <img src="" alt="avarta" />
+            <p><a href="#">Chi tiết</a></p>
+          </div>
+          <div>
+            <p>MSSV:</p>
+            <p>Họ tên:</p>
+            <p>Giới tính</p>
+            <p>Ngày sinh:</p>
+            <p>Nơi sinh:</p>
+          </div>
+          <div>
+            <p>Lớp học:</p>
+            <p>Khóa học:</p>
+            <p>Bậc đào tạo:</p>
+            <p>Loại hình đào tạo:</p>
+            <p>Ngành:</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="thongbao">
+          <p>Nhắc nhở mới, chưa xem</p>
+          <h2>
+            0<i
+              style="
+                margin-left: 90%;
+                border: black solid 1px;
+                border-radius: 15px;
+              "
+              class="fa fa-bell-o"
+              aria-hidden="true"
+            ></i>
+          </h2>
+          <p><a href="#">Chi tiết</a></p>
+        </div>
+        <div class="lich">
+          <div class="lich-hoc">
+            <p>Lịch học trong tuần</p>
+            <h2>
+              0<i
+                style="margin-left: 80%"
+                class="fa fa-calendar"
+                aria-hidden="true"
+              ></i>
+            </h2>
+            <p><a href="#">Chi tiết</a></p>
+          </div>
+          <div class="lich-thi">
+            <p>Lịch thi trong tuần</p>
+            <h2>
+              0<i
+                style="margin-left: 80%"
+                class="fa fa-calendar-check-o"
+                aria-hidden="true"
+              ></i>
+            </h2>
+            <p><a href="#">Chi tiết</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-address-card-o" aria-hidden="true"></i>
+          <p>Thông tin sinh viên</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-tasks" aria-hidden="true"></i>
+          <p>Chương trình khung</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-line-chart" aria-hidden="true"></i>
+          <p>Kết quả học tập</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          <p>Lịch theo tuần</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-usd" aria-hidden="true"></i>
+          <p>Tra cứu công nợ</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-file" aria-hidden="true"></i>
+          <p>Phiếu thu tổng hợp</p></a
+        >
+      </div>
+      <div class="chucnang">
+        <a href="#">
+          <i class="fa fa-briefcase" aria-hidden="true"></i>
+          <p>Nhắc nhở</p></a
+        >
+      </div>
+    </section>
+    <script
+      src="/js/javascript.js"
+      type="text/javascript"
+      language="javascript"
+    ></script>
+  </body>
+</html>

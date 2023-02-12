@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(222, 240, 247);
+}
+
+body a {
+  color: black;
+  text-decoration: none;
+}
+body a:hover {
+  color: slateblue;
+}
+/* -------------------------header------------------------- */
+header {
+  display: flex;
+  background-color: white;
+}
+
+.header-left {
+  display: flex;
+  margin-left: 8%;
+}
+
+form {
+  width: 250px;
+}
+
+.header-left input {
+  margin-left: 15%;
+  margin-top: 5%;
+  padding: 5px;
+  border: rgb(173, 168, 168) solid 1px;
+  border-radius: 10px;
+}
+
+.header-left button {
+  border: none;
+  margin-left: -12%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.header-right {
+  margin-left: 10%;
+  width: 100%;
+}
+
+.header-right li {
+  display: inline-block;
+  margin-left: 10%;
+  padding: 15px 0;
+}
+
+.content {
+  display: none;
+  margin-left: 25%;
+  width: 10%;
+  text-align: left;
+  border: none;
+  padding: 0;
+  position: absolute;
+}
+
+.content li {
+  display: block;
+  padding: 5px 10px;
+  margin-left: 0;
+  border: rgb(173, 168, 168) solid 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.content li:hover {
+  background-color: slateblue;
+  color: black;
+}
+
+.content a:hover {
+  color: black;
+}
+/* -------------------------nav------------------------- */
+nav {
+  padding: 5px;
+}
+
+#menu {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 39px;
+  height: 39px;
+  position: fixed;
+  border: rgb(173, 168, 168) solid 1px;
+  border-radius: 10px;
+}
+
+#dropdown-menu {
+  margin-left: 4.5%;
+  margin-top: 27px;
+  position: fixed;
+}
+
+#menu-child {
+  width: 100%;
+  margin-left: 115%;
+}
+/* -------------------------section------------------------- */
+section {
+  display: flex;
+}
+.cell-info {
+  margin-left: 9%;
+  border: rgb(173, 168, 168) solid 1px;
+  position: static;
+  padding: 15px;
+  background-color: white;
+  width: 48%;
+}
+
+.info {
+  display: flex;
+}
+
+.info div {
+  margin-left: 6%;
+  margin-top: 2.5%;
+  padding: 5px;
+  width: 20%;
+}
+.info p {
+  margin-left: 0%;
+  margin-top: 2.5%;
+  padding: 5px;
+  width: 130%;
+}
+h3 {
+  border-bottom: rgb(173, 168, 168) solid 1px;
+  padding: 5px;
+}
+
+.thongbao {
+  border: rgb(173, 168, 168) solid 1px;
+  position: static;
+  padding: 20px;
+  background-color: white;
+  width: 129.9%;
+  height: 30%;
+  margin-left: 5.5%;
+}
+.thongbao p,
+h2 {
+  padding: 3px;
+}
+
+.lich {
+  display: flex;
+  margin-left: 5.5%;
+  width: 147%;
+  margin-top: 12%;
+}
+.lich-hoc,
+.lich-thi {
+  width: 130%;
+  padding: 20px;
+  border: rgb(173, 168, 168) solid 1px;
+  margin-right: 2.5%;
+}
+
+.lich-hoc {
+  background-color: #a5fad6;
+  color: #00f853;
+}
+.lich-thi {
+  background-color: #f8bc84;
+  color: #fd8700;
+}
+.chucnang {
+  margin-left: 9%;
+  border: rgb(173, 168, 168) solid 1px;
+  position: static;
+  padding: 15px;
+  background-color: white;
+  margin-right: -6.4%;
+  height: 60px;
+  text-align: center;
+  margin-top: 2%;
+}
+.chucnang p {
+  margin-top: 10px;
+}
